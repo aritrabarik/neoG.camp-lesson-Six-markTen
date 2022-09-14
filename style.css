@@ -1,0 +1,79 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.heading,
+.description {
+  text-align: center;
+  padding: 1rem;
+}
+
+#bill-amt,
+#cash-amt {
+  display: block;
+  margin-bottom: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  border: 0.5px solid black;
+  padding: 0.7rem;
+}
+
+label {
+  display: block;
+  text-align: center;
+  margin: 1rem;
+}
+
+input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#check-btn {
+  display: block;
+  margin-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#error-msg {
+  text-align: center;
+  padding: 1rem;
+}
+
+h3 {
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+table,
+th,
+td {
+  border: 0.5px solid;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  height: 2rem;
+}
+
+td {
+  text-align: center;
+}
+
+table tr th,
+table tr td {
+  width: 10%;
+  word-break: break-all;
+}
