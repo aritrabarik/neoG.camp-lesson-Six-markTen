@@ -18,11 +18,11 @@ checkBtn.addEventListener("click", function onClick() {
       const amountToBeReturned = cashAmt.value - billAmt.value;
       calculateChange(amountToBeReturned);
     } else {
-      errorMsg.innerText = "do you wanna wash dishes!";
+      errorMsg.innerText = "Do you wanna wash dishes!";
       errorMsg.style.display = "block";
     }
   } else {
-    errorMsg.innerText = "invalid amount!";
+    errorMsg.innerText = "Invalid Amount!";
     errorMsg.style.display = "block";
   }
 });
