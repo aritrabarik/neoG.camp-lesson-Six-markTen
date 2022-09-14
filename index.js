@@ -18,12 +18,10 @@ checkBtn.addEventListener("click", function onClick() {
       const amountToBeReturned = cashAmt.value - billAmt.value;
       calculateChange(amountToBeReturned);
     } else {
-      errorMsg.innerText = "Do you wanna wash dishes!";
-      errorMsg.style.display = "block";
+      showMessage("Do you wanna wash dishes!");
     }
   } else {
-    errorMsg.innerText = "Invalid Amount!";
-    errorMsg.style.display = "block";
+    showMessage("Invalid Amount!");
   }
 });
 
@@ -33,4 +31,9 @@ function calculateChange(amountToBeReturned) {
     amountToBeReturned = amountToBeReturned % notes[i];
     noOfNotes[i].innerText = numberOfNotes;
   }
+}
+
+function showMessage(msg) {
+  errorMsg.innerText = msg;
+  errorMsg.style.display = "block";
 }
